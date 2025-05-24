@@ -1,0 +1,26 @@
+What is the purpose of a Git repository, and how does it help front-end developers manage a project like an HTML/CSS/JS webpage?
+A Git repository is a virtual storage for tracking changes in code, enabling version control and collaboration .
+Front-end developers can save different versions of HTML, CSS, and JS files, making it easy to revert or compare changes over time .
+It allows multiple developers to work on a project simultaneously without overwriting each other’s work .
+++++++++++++++================================
+
+Explain the difference between tracked and untracked files in Git, and why might untracked files cause issues in a front-end project?
+Tracked files are those that Git monitors for changes and includes in commits; they are part of the repository's history .
+Untracked files are new or modified files Git isn’t monitoring yet, which may lead to missing important updates or assets in a front-end project .
+Untracked files can cause confusion during collaboration if essential files (like new components or styles) aren't added to version control .
+++++++++++++++================================
+Why is it important to use a file to ignore certain items (e.g., node_modules) in a Git repository, especially for front-end development?
+Using a .gitignore file prevents unnecessary or sensitive files (like node_modules, environment variables, or build artifacts) from being committed .
+This keeps the repository clean, reduces clutter, and avoids conflicts when working with dependencies that are automatically regenerated 
+For front-end projects, this ensures only relevant source code and assets are tracked and shared .
+++++++++++++++================================
+How does viewing a project’s history benefit a front-end developer when working on multiple versions of a webpage?
+Developers can review past changes, understand the evolution of the codebase, and identify when specific bugs or features were introduced .
+It enables reverting to earlier stable versions if something breaks in the current version of the webpage .
+Helps in auditing contributions and understanding how design or functionality decisions were made over time .
+
+++++++++++++++================================
+What is the role of GitHub in relation to a local Git repository, and how does hosting a project on GitHub Pages add value for a front-end developer?
+GitHub acts as a remote host for Git repositories, enabling collaboration, backup, and team workflows like pull requests and branching .
+It provides a centralized location to manage and share code with others, which is essential for team-based front-end development .
+Hosting on GitHub Pages allows front-end developers to quickly deploy and showcase live websites directly from a repository, simplifying testing and sharing .
